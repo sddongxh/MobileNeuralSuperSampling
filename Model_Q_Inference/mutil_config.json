@@ -1,0 +1,9 @@
+{
+    "n_gpu": 1,
+    "shuffle": false,
+    "num_workers": 0,
+    "test_batch_size": 1,
+    "test_root_dir": "./data/",
+    "checkpoint": "./checkpoint/checkpoint-epoch49.pth",
+    "save_dir": "./checkpoint/results/"
+}
