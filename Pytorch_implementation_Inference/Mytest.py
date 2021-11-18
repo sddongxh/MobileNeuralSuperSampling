@@ -12,7 +12,7 @@ from dataloader.sp_data_loader import Mutil_IMG2IMG
 from utils.util import prepare_device, read_config, save_image
 
 # Mode  "Q"  "B"  "P"
-model = "P"
+model = "Q"
 
 if model == "Q":
     from model.MNSS_Q import MNSS
