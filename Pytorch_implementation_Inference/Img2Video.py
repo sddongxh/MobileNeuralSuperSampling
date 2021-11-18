@@ -2,7 +2,7 @@ import os,sys
 import cv2
 
 
-mode = "LR"
+mode = "Q"
 path, savename= "", ""
 if mode == "Q":
   path=r".\checkpoint\results\Q"
