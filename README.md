@@ -18,6 +18,6 @@
 
 ### Inference
 
--   [Mtest.py](Pytorch_implementation_Inference/Mtest.py) :  Choose a model = "Q", "B", or "P".
+-   [Mytest.py](Pytorch_implementation_Inference/Mytest.py) :  Choose a model = "Q", "B", or "P".
 -   [Img2Video.py](Pytorch_implementation_Inference/Img2Video.py) :  Converte images to video.
 
