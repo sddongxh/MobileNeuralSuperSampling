@@ -20,15 +20,15 @@ elif mode== "LR":
   path=r".\Data\1080p\LR"
   savename = r".\Videos\LR.avi"
 
-pic=os.listdir(path)
-pic.sort(key=lambda x: int(x[:-4]))
+imglist=os.listdir(path)
+imglist.sort(key=lambda x: int(x[:-4]))
 w = 1920
 h = 1080
 f = 2
 
 fourcc = cv2.VideoWriter_fourcc('X', 'V', 'I', 'D')
 out = cv2.VideoWriter(savename, fourcc, 60, (w, h))
-for p in pic:
+for p in imglist:
   print(p)
   im=cv2.imread(path+'/'+p)
   im = cv2.resize(im, (w,h), interpolation=cv2.INTER_CUBIC)
